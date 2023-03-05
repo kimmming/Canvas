@@ -32,7 +32,7 @@ class Canvas extends CanvasOption{
         const x = randomNumBetween(0,this.canvasWidth)
         const y = randomNumBetween(0,this.canvasHeight)
         for (let i = 0; i< PARTICLE_NUM; i++){
-            const r = randomNumBetween(2,100) * hypotenuse(innerWidth,innerHeight) * 0.0002
+            const r = randomNumBetween(70,100) * hypotenuse(innerWidth,innerHeight) * 0.0002
             // 이 값을 바꾸면 여러 원모양이 된다
             const angle = Math.PI/180 * randomNumBetween(0,360)
 
