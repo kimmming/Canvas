@@ -100,6 +100,7 @@ body {
 #star_1,
 #star_2 {
     animation: shrinkAndGrow 4s infinite;
+    animation-timing-function: cubic-bezier(.15,.91,.93,-0.81);
     transform-box: fill-box;
     transform-origin: center;
 }
@@ -109,6 +110,7 @@ body {
 #star_8,
 #star_9 {
     animation: shrinkAndGrow 10s infinite;
+    animation-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
     transform-box: fill-box;
     transform-origin: center;
 }
@@ -124,10 +126,9 @@ body {
     transform-origin: center;
 
 }
-
 #number-0 {
     animation: appearFromBottom 3s;
-    
+    animation-timing-function: cubic-bezier(.15,.91,.93,-0.81);
 }
 
 #alien_hand-R,
